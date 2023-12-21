@@ -132,16 +132,16 @@ This process is then continued to find the second largest and place it and so on
 </br>
 <h3>How actually does a bubble sort work(illustration):</h3>
 </br>
-1) 6 0 3 5</br>
-...| |</br>
+1) 6(i=0) 0(i=1) 3(i=2)5(i=3)</br>
+
 these two(i=0 and i=1)swap</br></br>
-2) 0 6 3 5</br>
-.....| |</br>
+2) 0(i=0) 6)i=1) 3(i=2) 5(i=4)</br>
+
   these two(i=1 and i=2) swap</br></br>
-3) 0 3 6 5</br>
-.......| |</br>
-    these two(i=2 and i=3)swap</br></br>
-4) 0 3 5 6</br>
+3) 0(i=0) 3(i=1) 6(i=2)5(i=3)</br>
+
+  these two(i=2 and i=3)swap</br></br>
+4) 0(i=0) 3(i=1) 5(i=2) 6(i=3)</br>
 the list is sorted.</br>
 
 
