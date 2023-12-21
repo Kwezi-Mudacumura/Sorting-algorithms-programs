@@ -48,7 +48,7 @@ Now, 6 is smaller than 12, hence, swap again</br>
 Here, also swapping makes 11 and 6 unsorted hence, swap again</br>
    5   	   6   	   11   	   12   	   13   </br>
    </li>
-Finally, the array is completely sorted.
+Finally, the array is completely sorted.Which is basically what the insertion function in the program does.
 
 </ul>
 </p>
