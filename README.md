@@ -119,10 +119,37 @@ Selection Sort Algorithm | Required sorted array</br>
 Selection Sort Algorithm | Required sorted array</br>
 
 </ul>
+</p>
+<li><h2>Bubble sort</h2></li>
+<p>
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. 
+</br>
+
+<h3>Bubble Sort Algorithm</h3>
+The function in the program traverses from left and compare adjacent elements and the higher one is placed at right side. 
+In this way, the largest element is moved to the rightmost end at first. 
+This process is then continued to find the second largest and place it and so on until the data is sorted.
+</br>
+How actually does a bubble sort work(illustration):
+</br>
+6 0 3 5</br>
+| |</br>
+these two(i=0 and i=1)swap</br></br>
+0 6 3 5</br>
+  | |</br>
+  these two(i=1 and i=2) swap</br></br>
+0 3 6 5</br>
+    | |</br>
+    these two(i=2 and i=3)swap</br></br>
+0 3 5 6</br>
+the list is sorted.</br>
+
+
+
+
 
   
 </p>
-
 
 
 
