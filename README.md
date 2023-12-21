@@ -7,7 +7,7 @@ Insertion sort is a simple sorting algorithm that works similar to the way you s
 Consider an example: arr[]: {12, 11, 13, 5, 6}
    12   	   11   	   13   	   5   	   6   
    <ul>
-<li>First Pass:</br>
+<li><h3>First Pass:</h3>
 Initially, the first two elements of the array are compared in insertion sort.</br>
    12   	   11   	   13   	   5   	   6   </br>
 Here, 12 is greater than 11 hence they are not in the ascending order and 12 is not at its correct position. Thus, swap 11 and 12.</br>
@@ -15,14 +15,14 @@ So, for now 11 is stored in a sorted sub-array.</br>
    11   	   12   	   13   	   5   	   6   </br>
 </li>
      <li>
-Second Pass:</br>
+<h3>Second Pass:</h3>
 
  Now, move to the next two elements and compare them</br>
    11   	   12   	   13   	   5   	   6   </br>
 Here, 13 is greater than 12, thus both elements seems to be in ascending order, hence, no swapping will occur. 12 also stored in a sorted sub-array along with 11</br>
 </li>
 <li>
-Third Pass:</br>
+<h3>Third Pass:</h3>
 
 Now, two elements are present in the sorted sub-array which are 11 and 12</br>
 Moving forward to the next two elements which are 13 and 5</br>
@@ -36,7 +36,7 @@ Here, again 11 and 5 are not sorted, hence swap again</br>
 Here, 5 is at its correct position</br>
 </li>
 <li>
-Fourth Pass:</br>
+<h3>Fourth Pass:</h3>
 
 Now, the elements which are present in the sorted sub-array are 5, 11 and 12</br>
 Moving to the next two elements 13 and 6</br>
