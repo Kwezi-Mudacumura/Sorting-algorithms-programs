@@ -131,7 +131,7 @@ In this way, the largest element is moved to the rightmost end at first.
 This process is then continued to find the second largest and place it and so on until the data is sorted.
 </br>
 <h3>How actually does a bubble sort work(illustration):</h3>
-</br></br>
+</br>
 1) 6 0 3 5</br>
 | |</br>
 these two(i=0 and i=1)swap</br></br>
